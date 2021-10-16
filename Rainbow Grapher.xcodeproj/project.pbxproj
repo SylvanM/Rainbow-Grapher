@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE8DED3E271A9F8B006F719B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8DED3D271A9F8B006F719B /* AppDelegate.swift */; };
+		AE8DED40271A9F8B006F719B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8DED3F271A9F8B006F719B /* ViewController.swift */; };
+		AE8DED42271A9F8E006F719B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE8DED41271A9F8E006F719B /* Assets.xcassets */; };
+		AE8DED45271A9F8E006F719B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE8DED43271A9F8E006F719B /* Main.storyboard */; };
+		AE8DED51271A9F8F006F719B /* Rainbow_GrapherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8DED50271A9F8F006F719B /* Rainbow_GrapherTests.swift */; };
+		AE8DED5C271A9F8F006F719B /* Rainbow_GrapherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8DED5B271A9F8F006F719B /* Rainbow_GrapherUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE8DED4D271A9F8F006F719B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE8DED32271A9F8B006F719B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE8DED39271A9F8B006F719B;
+			remoteInfo = "Rainbow Grapher";
+		};
+		AE8DED58271A9F8F006F719B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE8DED32271A9F8B006F719B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE8DED39271A9F8B006F719B;
+			remoteInfo = "Rainbow Grapher";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE8DED3A271A9F8B006F719B /* Rainbow Grapher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rainbow Grapher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE8DED3D271A9F8B006F719B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE8DED3F271A9F8B006F719B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE8DED41271A9F8E006F719B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE8DED44271A9F8E006F719B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE8DED46271A9F8E006F719B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE8DED47271A9F8E006F719B /* Rainbow_Grapher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Rainbow_Grapher.entitlements; sourceTree = "<group>"; };
+		AE8DED4C271A9F8F006F719B /* Rainbow GrapherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rainbow GrapherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE8DED50271A9F8F006F719B /* Rainbow_GrapherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rainbow_GrapherTests.swift; sourceTree = "<group>"; };
+		AE8DED52271A9F8F006F719B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE8DED57271A9F8F006F719B /* Rainbow GrapherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rainbow GrapherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE8DED5B271A9F8F006F719B /* Rainbow_GrapherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rainbow_GrapherUITests.swift; sourceTree = "<group>"; };
+		AE8DED5D271A9F8F006F719B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE8DED37271A9F8B006F719B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE8DED49271A9F8F006F719B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE8DED54271A9F8F006F719B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE8DED31271A9F8B006F719B = {
+			isa = PBXGroup;
+			children = (
+				AE8DED3C271A9F8B006F719B /* Rainbow Grapher */,
+				AE8DED4F271A9F8F006F719B /* Rainbow GrapherTests */,
+				AE8DED5A271A9F8F006F719B /* Rainbow GrapherUITests */,
+				AE8DED3B271A9F8B006F719B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE8DED3B271A9F8B006F719B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE8DED3A271A9F8B006F719B /* Rainbow Grapher.app */,
+				AE8DED4C271A9F8F006F719B /* Rainbow GrapherTests.xctest */,
+				AE8DED57271A9F8F006F719B /* Rainbow GrapherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE8DED3C271A9F8B006F719B /* Rainbow Grapher */ = {
+			isa = PBXGroup;
+			children = (
+				AE8DED3D271A9F8B006F719B /* AppDelegate.swift */,
+				AE8DED3F271A9F8B006F719B /* ViewController.swift */,
+				AE8DED41271A9F8E006F719B /* Assets.xcassets */,
+				AE8DED43271A9F8E006F719B /* Main.storyboard */,
+				AE8DED46271A9F8E006F719B /* Info.plist */,
+				AE8DED47271A9F8E006F719B /* Rainbow_Grapher.entitlements */,
+			);
+			path = "Rainbow Grapher";
+			sourceTree = "<group>";
+		};
+		AE8DED4F271A9F8F006F719B /* Rainbow GrapherTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE8DED50271A9F8F006F719B /* Rainbow_GrapherTests.swift */,
+				AE8DED52271A9F8F006F719B /* Info.plist */,
+			);
+			path = "Rainbow GrapherTests";
+			sourceTree = "<group>";
+		};
+		AE8DED5A271A9F8F006F719B /* Rainbow GrapherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE8DED5B271A9F8F006F719B /* Rainbow_GrapherUITests.swift */,
+				AE8DED5D271A9F8F006F719B /* Info.plist */,
+			);
+			path = "Rainbow GrapherUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE8DED39271A9F8B006F719B /* Rainbow Grapher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE8DED60271A9F8F006F719B /* Build configuration list for PBXNativeTarget "Rainbow Grapher" */;
+			buildPhases = (
+				AE8DED36271A9F8B006F719B /* Sources */,
+				AE8DED37271A9F8B006F719B /* Frameworks */,
+				AE8DED38271A9F8B006F719B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rainbow Grapher";
+			productName = "Rainbow Grapher";
+			productReference = AE8DED3A271A9F8B006F719B /* Rainbow Grapher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE8DED4B271A9F8F006F719B /* Rainbow GrapherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE8DED63271A9F8F006F719B /* Build configuration list for PBXNativeTarget "Rainbow GrapherTests" */;
+			buildPhases = (
+				AE8DED48271A9F8F006F719B /* Sources */,
+				AE8DED49271A9F8F006F719B /* Frameworks */,
+				AE8DED4A271A9F8F006F719B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE8DED4E271A9F8F006F719B /* PBXTargetDependency */,
+			);
+			name = "Rainbow GrapherTests";
+			productName = "Rainbow GrapherTests";
+			productReference = AE8DED4C271A9F8F006F719B /* Rainbow GrapherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE8DED56271A9F8F006F719B /* Rainbow GrapherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE8DED66271A9F8F006F719B /* Build configuration list for PBXNativeTarget "Rainbow GrapherUITests" */;
+			buildPhases = (
+				AE8DED53271A9F8F006F719B /* Sources */,
+				AE8DED54271A9F8F006F719B /* Frameworks */,
+				AE8DED55271A9F8F006F719B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE8DED59271A9F8F006F719B /* PBXTargetDependency */,
+			);
+			name = "Rainbow GrapherUITests";
+			productName = "Rainbow GrapherUITests";
+			productReference = AE8DED57271A9F8F006F719B /* Rainbow GrapherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE8DED32271A9F8B006F719B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					AE8DED39271A9F8B006F719B = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					AE8DED4B271A9F8F006F719B = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = AE8DED39271A9F8B006F719B;
+					};
+					AE8DED56271A9F8F006F719B = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = AE8DED39271A9F8B006F719B;
+					};
+				};
+			};
+			buildConfigurationList = AE8DED35271A9F8B006F719B /* Build configuration list for PBXProject "Rainbow Grapher" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE8DED31271A9F8B006F719B;
+			productRefGroup = AE8DED3B271A9F8B006F719B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE8DED39271A9F8B006F719B /* Rainbow Grapher */,
+				AE8DED4B271A9F8F006F719B /* Rainbow GrapherTests */,
+				AE8DED56271A9F8F006F719B /* Rainbow GrapherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE8DED38271A9F8B006F719B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE8DED42271A9F8E006F719B /* Assets.xcassets in Resources */,
+				AE8DED45271A9F8E006F719B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE8DED4A271A9F8F006F719B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE8DED55271A9F8F006F719B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE8DED36271A9F8B006F719B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE8DED40271A9F8B006F719B /* ViewController.swift in Sources */,
+				AE8DED3E271A9F8B006F719B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE8DED48271A9F8F006F719B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE8DED51271A9F8F006F719B /* Rainbow_GrapherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE8DED53271A9F8F006F719B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE8DED5C271A9F8F006F719B /* Rainbow_GrapherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE8DED4E271A9F8F006F719B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE8DED39271A9F8B006F719B /* Rainbow Grapher */;
+			targetProxy = AE8DED4D271A9F8F006F719B /* PBXContainerItemProxy */;
+		};
+		AE8DED59271A9F8F006F719B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE8DED39271A9F8B006F719B /* Rainbow Grapher */;
+			targetProxy = AE8DED58271A9F8F006F719B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE8DED43271A9F8E006F719B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE8DED44271A9F8E006F719B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE8DED5E271A9F8F006F719B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE8DED5F271A9F8F006F719B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AE8DED61271A9F8F006F719B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Rainbow Grapher/Rainbow_Grapher.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JDSTZ7K2MV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Rainbow Grapher/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "martin.Rainbow-Grapher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AE8DED62271A9F8F006F719B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Rainbow Grapher/Rainbow_Grapher.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JDSTZ7K2MV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Rainbow Grapher/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "martin.Rainbow-Grapher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AE8DED64271A9F8F006F719B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JDSTZ7K2MV;
+				INFOPLIST_FILE = "Rainbow GrapherTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "martin.Rainbow-GrapherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rainbow Grapher.app/Contents/MacOS/Rainbow Grapher";
+			};
+			name = Debug;
+		};
+		AE8DED65271A9F8F006F719B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JDSTZ7K2MV;
+				INFOPLIST_FILE = "Rainbow GrapherTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "martin.Rainbow-GrapherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rainbow Grapher.app/Contents/MacOS/Rainbow Grapher";
+			};
+			name = Release;
+		};
+		AE8DED67271A9F8F006F719B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JDSTZ7K2MV;
+				INFOPLIST_FILE = "Rainbow GrapherUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "martin.Rainbow-GrapherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Rainbow Grapher";
+			};
+			name = Debug;
+		};
+		AE8DED68271A9F8F006F719B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JDSTZ7K2MV;
+				INFOPLIST_FILE = "Rainbow GrapherUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "martin.Rainbow-GrapherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Rainbow Grapher";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE8DED35271A9F8B006F719B /* Build configuration list for PBXProject "Rainbow Grapher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE8DED5E271A9F8F006F719B /* Debug */,
+				AE8DED5F271A9F8F006F719B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE8DED60271A9F8F006F719B /* Build configuration list for PBXNativeTarget "Rainbow Grapher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE8DED61271A9F8F006F719B /* Debug */,
+				AE8DED62271A9F8F006F719B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE8DED63271A9F8F006F719B /* Build configuration list for PBXNativeTarget "Rainbow GrapherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE8DED64271A9F8F006F719B /* Debug */,
+				AE8DED65271A9F8F006F719B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE8DED66271A9F8F006F719B /* Build configuration list for PBXNativeTarget "Rainbow GrapherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE8DED67271A9F8F006F719B /* Debug */,
+				AE8DED68271A9F8F006F719B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE8DED32271A9F8B006F719B /* Project object */;
+}
