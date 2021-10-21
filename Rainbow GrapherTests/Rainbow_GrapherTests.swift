@@ -21,6 +21,21 @@ class Rainbow_GrapherTests: XCTestCase {
     func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        let (xAxis, yAxis) = (Line<CGPoint>.horizontalAxis(width: 1), Line<CGPoint>.verticalAxis(width: 1))
+        
+        print("DONE INITIALIZING")
+        for x in -10...10 {
+            let point = CGPoint(x1: Double(x), x2: 0)
+            assert(xAxis.contains(point))
+        }
+        
+        for y in -10...10 {
+            let point = CGPoint(x1: 0, x2: Double(y))
+            assert(yAxis.contains(point))
+        }
+        
+        
     }
 
     func testPerformanceExample() throws {

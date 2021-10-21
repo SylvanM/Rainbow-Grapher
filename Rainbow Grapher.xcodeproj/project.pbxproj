@@ -3,16 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE3CE9C12721E532006A5FC5 /* Mandlebrot.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3CE9C02721E532006A5FC5 /* Mandlebrot.swift */; };
 		AE8DED3E271A9F8B006F719B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8DED3D271A9F8B006F719B /* AppDelegate.swift */; };
-		AE8DED40271A9F8B006F719B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8DED3F271A9F8B006F719B /* ViewController.swift */; };
+		AE8DED40271A9F8B006F719B /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8DED3F271A9F8B006F719B /* GraphViewController.swift */; };
 		AE8DED42271A9F8E006F719B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE8DED41271A9F8E006F719B /* Assets.xcassets */; };
 		AE8DED45271A9F8E006F719B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE8DED43271A9F8E006F719B /* Main.storyboard */; };
 		AE8DED51271A9F8F006F719B /* Rainbow_GrapherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8DED50271A9F8F006F719B /* Rainbow_GrapherTests.swift */; };
 		AE8DED5C271A9F8F006F719B /* Rainbow_GrapherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8DED5B271A9F8F006F719B /* Rainbow_GrapherUITests.swift */; };
+		AE8DED6B271A9F9E006F719B /* Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8DED6A271A9F9E006F719B /* Vector.swift */; };
+		AE8DED6E271A9FC6006F719B /* ComplexModule in Frameworks */ = {isa = PBXBuildFile; productRef = AE8DED6D271A9FC6006F719B /* ComplexModule */; };
+		AE8DED70271A9FC6006F719B /* RealModule in Frameworks */ = {isa = PBXBuildFile; productRef = AE8DED6F271A9FC6006F719B /* RealModule */; };
+		AE8DED72271A9FC6006F719B /* Numerics in Frameworks */ = {isa = PBXBuildFile; productRef = AE8DED71271A9FC6006F719B /* Numerics */; };
+		AE8DED75271AA05E006F719B /* ImageUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8DED74271AA05E006F719B /* ImageUtility.swift */; };
+		AE8DED77271AA6B9006F719B /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8DED76271AA6B9006F719B /* Function.swift */; };
+		AE8DED7C271AAE0E006F719B /* GraphWindowDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8DED7B271AAE0E006F719B /* GraphWindowDelegate.swift */; };
+		AEB79011271CAFA100AB0CD7 /* MatrixKit in Frameworks */ = {isa = PBXBuildFile; productRef = AEB79010271CAFA100AB0CD7 /* MatrixKit */; };
+		AEB79013271E69E100AB0CD7 /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB79012271E69E000AB0CD7 /* Set.swift */; };
+		AEB7901A271E6ED100AB0CD7 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB79019271E6ED100AB0CD7 /* Line.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,9 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE3CE9C02721E532006A5FC5 /* Mandlebrot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mandlebrot.swift; sourceTree = "<group>"; };
 		AE8DED3A271A9F8B006F719B /* Rainbow Grapher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rainbow Grapher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE8DED3D271A9F8B006F719B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AE8DED3F271A9F8B006F719B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE8DED3F271A9F8B006F719B /* GraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
 		AE8DED41271A9F8E006F719B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE8DED44271A9F8E006F719B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE8DED46271A9F8E006F719B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,6 +58,12 @@
 		AE8DED57271A9F8F006F719B /* Rainbow GrapherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rainbow GrapherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE8DED5B271A9F8F006F719B /* Rainbow_GrapherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rainbow_GrapherUITests.swift; sourceTree = "<group>"; };
 		AE8DED5D271A9F8F006F719B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE8DED6A271A9F9E006F719B /* Vector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vector.swift; sourceTree = "<group>"; };
+		AE8DED74271AA05E006F719B /* ImageUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUtility.swift; sourceTree = "<group>"; };
+		AE8DED76271AA6B9006F719B /* Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
+		AE8DED7B271AAE0E006F719B /* GraphWindowDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphWindowDelegate.swift; sourceTree = "<group>"; };
+		AEB79012271E69E000AB0CD7 /* Set.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Set.swift; sourceTree = "<group>"; };
+		AEB79019271E6ED100AB0CD7 /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +71,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE8DED70271A9FC6006F719B /* RealModule in Frameworks */,
+				AE8DED72271A9FC6006F719B /* Numerics in Frameworks */,
+				AEB79011271CAFA100AB0CD7 /* MatrixKit in Frameworks */,
+				AE8DED6E271A9FC6006F719B /* ComplexModule in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,8 +118,11 @@
 		AE8DED3C271A9F8B006F719B /* Rainbow Grapher */ = {
 			isa = PBXGroup;
 			children = (
+				AE8DED73271AA052006F719B /* Image Utility */,
+				AE8DED69271A9F97006F719B /* Math */,
 				AE8DED3D271A9F8B006F719B /* AppDelegate.swift */,
-				AE8DED3F271A9F8B006F719B /* ViewController.swift */,
+				AE8DED3F271A9F8B006F719B /* GraphViewController.swift */,
+				AE8DED7B271AAE0E006F719B /* GraphWindowDelegate.swift */,
 				AE8DED41271A9F8E006F719B /* Assets.xcassets */,
 				AE8DED43271A9F8E006F719B /* Main.storyboard */,
 				AE8DED46271A9F8E006F719B /* Info.plist */,
@@ -124,6 +149,34 @@
 			path = "Rainbow GrapherUITests";
 			sourceTree = "<group>";
 		};
+		AE8DED69271A9F97006F719B /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				AE8DED6A271A9F9E006F719B /* Vector.swift */,
+				AE8DED76271AA6B9006F719B /* Function.swift */,
+				AEB79012271E69E000AB0CD7 /* Set.swift */,
+				AEB79018271E6EC400AB0CD7 /* Shapes */,
+			);
+			path = Math;
+			sourceTree = "<group>";
+		};
+		AE8DED73271AA052006F719B /* Image Utility */ = {
+			isa = PBXGroup;
+			children = (
+				AE8DED74271AA05E006F719B /* ImageUtility.swift */,
+			);
+			path = "Image Utility";
+			sourceTree = "<group>";
+		};
+		AEB79018271E6EC400AB0CD7 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				AEB79019271E6ED100AB0CD7 /* Line.swift */,
+				AE3CE9C02721E532006A5FC5 /* Mandlebrot.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,6 +193,12 @@
 			dependencies = (
 			);
 			name = "Rainbow Grapher";
+			packageProductDependencies = (
+				AE8DED6D271A9FC6006F719B /* ComplexModule */,
+				AE8DED6F271A9FC6006F719B /* RealModule */,
+				AE8DED71271A9FC6006F719B /* Numerics */,
+				AEB79010271CAFA100AB0CD7 /* MatrixKit */,
+			);
 			productName = "Rainbow Grapher";
 			productReference = AE8DED3A271A9F8B006F719B /* Rainbow Grapher.app */;
 			productType = "com.apple.product-type.application";
@@ -211,6 +270,10 @@
 				Base,
 			);
 			mainGroup = AE8DED31271A9F8B006F719B;
+			packageReferences = (
+				AE8DED6C271A9FC6006F719B /* XCRemoteSwiftPackageReference "swift-numerics" */,
+				AEB7900F271CAFA100AB0CD7 /* XCRemoteSwiftPackageReference "MatrixKit" */,
+			);
 			productRefGroup = AE8DED3B271A9F8B006F719B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -253,7 +316,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE8DED40271A9F8B006F719B /* ViewController.swift in Sources */,
+				AE3CE9C12721E532006A5FC5 /* Mandlebrot.swift in Sources */,
+				AEB79013271E69E100AB0CD7 /* Set.swift in Sources */,
+				AE8DED7C271AAE0E006F719B /* GraphWindowDelegate.swift in Sources */,
+				AE8DED75271AA05E006F719B /* ImageUtility.swift in Sources */,
+				AE8DED77271AA6B9006F719B /* Function.swift in Sources */,
+				AE8DED40271A9F8B006F719B /* GraphViewController.swift in Sources */,
+				AE8DED6B271A9F9E006F719B /* Vector.swift in Sources */,
+				AEB7901A271E6ED100AB0CD7 /* Line.swift in Sources */,
 				AE8DED3E271A9F8B006F719B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -582,6 +652,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AE8DED6C271A9FC6006F719B /* XCRemoteSwiftPackageReference "swift-numerics" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-numerics";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
+			};
+		};
+		AEB7900F271CAFA100AB0CD7 /* XCRemoteSwiftPackageReference "MatrixKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:SylvanM/MatrixKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AE8DED6D271A9FC6006F719B /* ComplexModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE8DED6C271A9FC6006F719B /* XCRemoteSwiftPackageReference "swift-numerics" */;
+			productName = ComplexModule;
+		};
+		AE8DED6F271A9FC6006F719B /* RealModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE8DED6C271A9FC6006F719B /* XCRemoteSwiftPackageReference "swift-numerics" */;
+			productName = RealModule;
+		};
+		AE8DED71271A9FC6006F719B /* Numerics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE8DED6C271A9FC6006F719B /* XCRemoteSwiftPackageReference "swift-numerics" */;
+			productName = Numerics;
+		};
+		AEB79010271CAFA100AB0CD7 /* MatrixKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AEB7900F271CAFA100AB0CD7 /* XCRemoteSwiftPackageReference "MatrixKit" */;
+			productName = MatrixKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AE8DED32271A9F8B006F719B /* Project object */;
 }
